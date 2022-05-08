@@ -1,0 +1,5 @@
+name: SimpleRPG
+main: ovh.fejker.SimpleRPG.Main
+version: 0.1
+api-version: 1.16
+description: Enhance your experience without changing too much.
