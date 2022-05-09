@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SimpleRPG:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="385601e3-758e-4cf1-bc44-faa6cb24fbcb" name="Changes" comment="" />
+    <list default="true" id="385601e3-758e-4cf1-bc44-faa6cb24fbcb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ovh/fejker/SimpleRPG/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ovh/fejker/SimpleRPG/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ovh/fejker/SimpleRPG/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ovh/fejker/SimpleRPG/PlayerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ovh/fejker/SimpleRPG/PlayerHandler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -22,8 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/rootkid/IdeaProjects/SimpleRPG/spigot-api-1.18.2-R0.1-SNAPSHOT.jar",
-    "project.structure.last.edited": "Libraries",
+    "last_opened_file_path": "C:/Users/rootkid/IdeaProjects/SimpleRPG/plugin.yml",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }

@@ -9,12 +9,22 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onEnable(){
-        System.out.printf("FejKerUtils załadowano.");
         PluginManager pm = this.getServer().getPluginManager();
         try {
             pm.registerEvents(new PlayerHandler(), this);
         } catch (SQLException e) {
             e.printStackTrace();
+        }
+        DatabaseHandler databaseHandler;
+        try {
+            databaseHandler = new DatabaseHandler();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            databaseHandler.DatabaseCreate();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
         }
     }
     @Override
